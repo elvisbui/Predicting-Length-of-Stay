@@ -2,7 +2,7 @@
 In this project, I will outline how I will go about doing a machine learning project. 
 I will be using this dataset for this project: https://www.kaggle.com/nehaprabhavalkar/av-healthcare-analytics-ii
 
-The final model an be found here: [Final Model](https://github.com/elvisbui/Predicting-Length-of-Stay/blob/master/Ensemble.ipynb)
+The final model can be found here: [Final Model](https://github.com/elvisbui/Predicting-Length-of-Stay/blob/master/Ensemble.ipynb)
 
 # Pipeline
 1. Understanding the Problem
