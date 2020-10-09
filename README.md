@@ -2,6 +2,8 @@
 In this project, I will outline how I will go about doing a machine learning project. 
 I will be using this dataset for this project: https://www.kaggle.com/nehaprabhavalkar/av-healthcare-analytics-ii
 
+The final model an be found here: [Final Model](https://github.com/elvisbui/Predicting-Length-of-Stay/blob/master/Ensemble.ipynb)
+
 # Pipeline
 1. Understanding the Problem
 2. Exploratory Data Analysis (EDA)
@@ -29,6 +31,8 @@ In this project, I will be predict the amount of time a patient with stay at a g
  
 # 2. Exploratory Data Analysis (EDA)
 In my basic exploratory data analysis, for each feature I will see what type of data it is, if there are any missing values, if there are any outliers, and if the values of the features need to be preprocessed. The main goal of EDA for me is to gain insight. In this stage, I will also be determine which model is best for the baseline model. 
+
+[EDA Notebook](https://github.com/elvisbui/Predicting-Length-of-Stay/blob/master/EDA_and_Baseline_Model.ipynb)
  
 # 3. Data Formatting and Cleaning 
 After look at the data, I will fill in missing data, remove outliers, and preprocess the data for the baseline model.
@@ -56,6 +60,8 @@ When I'm done creating all my features, it is time to select the best features. 
 
 Once I found all the important features, I will then start tuning the architecture of the models and optimize the hyperparameter. 
 
+[Improving Model Notebook](https://github.com/elvisbui/Predicting-Length-of-Stay/blob/master/Improving_Catboost_Model.ipynb)
+
 # 10. Experimentation
 I found out that experiementation and iteration are important in improving a model's performance. In this stage, I will list all the ideas I can try to improve the model. 
 
@@ -65,8 +71,12 @@ Now I will create a lot of new models to test the new architecture, and run a lo
 # 12. Repeat steps 5-11
 After creating a lot of new models, I will have to review the models score, analysis the error, look deeper into the data, research, improve the model, and experiment with new ideas again. Creating a well preforming machine learning project requires a lot of iterations, testing, debuging, and experimentation. 
 
+[Neural Network Model](https://github.com/elvisbui/Predicting-Length-of-Stay/blob/master/Neural_Network_Model.ipynb)
+
 # 13. Ensemble
 After I am satisfied with my models and their preformance, I will then start the ensemble stage. Ensemble learning is costly, but it can yield great preformance increases.
+
+[Ensemble Notebook](https://github.com/elvisbui/Predicting-Length-of-Stay/blob/master/Ensemble.ipynb)
  
  
  # Reference
